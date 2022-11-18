@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentino Rabanetti | Linktree</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://avatars.githubusercontent.com/qbocat" type="image/x-icon" />
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Core theme CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js" integrity="sha512-3WGIRFCuTpZhqYujwLp5RtARPkOy3uRtc3RXB31bJ9/i6VH2C66Z0WBV6gHhdhbUIDKFx8yTkLfEjdQM5Wl+ZQ==" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="cursor">
+      <div class="text">qbocat</div>
+      <div class="text">qbocat</div>
+      <div class="text">qbocat</div>
+      <div class="text">qbocat</div>
+      <div class="text"><span>qbocat</span></div>
+  </div>
+  <script>
+       document.addEventListener("mousemove", e => {
+           gsap.to(".text", {
+               x: e.clientX,
+               y: e.clientY,
+               stagger: -0.02
+           });
+       });       
+  </script>
+
+    <!-- Animación de fondo parallax -->
+    <section class="animated-background">
+      <div id="stars1"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+    <!-- Fin de la animación de fondo parallax -->
+
+    <a id="profilePicture" href="#popup">
+      <img src="https://avatars.githubusercontent.com/qbocat" alt="Profile Picture">
+    </a>
+
+    <div class="overlay" id="popup">
+      <div class="popup">
+        <div class="popup-photo">
+          <a href="https://avatars.githubusercontent.com/qbocat" target="_blank">
+            <img src="https://avatars.githubusercontent.com/qbocat" alt="Profile Picture">
+          </a>
+        </div>
+        <div class="popup-quote">
+          Siempre en un cumple!!
+        </div>
+        <a class="popup-close" onclick="history.back()">&times;</a>
+      </div>
+    </div>
+
+    <div id="userName">
+      qbocat
+    </div>
+
+    <span id="link2">
+      <a class="link2" href="https://www.instagram.com/qbocat">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a class="link2" href="https://www.youtube.com/@qbocat">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a class="link2" href="https://www.twitch.tv/qbocat">
+        <i class="fab fa-twitch"></i>
+      </a>
+      <a class="link2" href="https://www.twitter.com/qbocat">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </span>
+
+    <div id="links">
+      <a class="link" href="https://discord.gg/pBV6YYv5hH" target="_blank">
+        <i class="fab fa-discord">&nbsp;</i>Discord
+      </a>
+      <a class="link" href="https://open.spotify.com/artist/3mU5Zs9Nqed0WN1yYYn0OV?si=pQm3ViMnSoO3KAN6GXWA_A" target="_blank">
+        <i class="fab fa-spotify">&nbsp;</i>Spotify
+      </a>
+      <a class="link" href="https://steamcommunity.com/id/qbonashe/" target="_blank">
+        <i class="fab fa-steam">&nbsp;</i>Steam
+      </a>
+      <a class="link" href="https://osu.ppy.sh/users/19176163" target="_blank">
+        <i class="fa fa-osu">&nbsp;</i>Osu
+      </a>
+      <div style="display: flex; align-content: center; justify-content: center;">
+        <iframe src="https://open.spotify.com/embed/track/0pQskrTITgmCMyr85tb9qq?si=8cd6f40a8786498e" width="650" height="80"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+      </div>
+      </a>
+    </div>
+
+    <div id="hashtag">
+      #qbidimensional
+    </div>
+  </body>
+</html>
